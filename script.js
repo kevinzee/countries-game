@@ -1,6 +1,5 @@
 console.log("script running");
 
-// Fix these querySelectors so that they each select the correct element.
 const chinaTile = document.querySelector("#China");
 const indiaTile = document.querySelector("#India");
 const americaTile = document.querySelector("#America");
@@ -24,7 +23,6 @@ console.log(nigeriaTile);
 console.log(bangladeshTile);
 console.log(mexicoTile);
 
-// Add the id of the input field so we can access it!
 const inputField = document.querySelector("#guess");
 console.log(inputField);
 
@@ -119,9 +117,6 @@ if (chinaTile.classList.contains("hidden")) {
   }
     mexicoTile.classList.remove("hidden");
   }
-  
-  //else if (guess !== "china" || guess !== "india" || guess !== "america" || guess !== "united states" || guess !== "united states of america" || guess !== "usa" || guess !== "us" || guess !== "indonesia" || guess !== "brazil" || guess !== "nigeria" || guess !== "bangladesh" || guess !== "russia" || guess !== "mexico");
-  //console.log("incorrect answer!");
   
   inputField.value = "";
   
